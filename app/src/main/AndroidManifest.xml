@@ -28,6 +28,12 @@
             android:launchMode="standard" />
 
         <activity android:name=".standard.ThirdStandardActivity" />
+
+        <activity android:name=".singleInstance.SecondSingleInstanceActivity"
+            android:launchMode="singleInstance" />
+
+        <activity android:name=".singleInstance.ThirdSingleInstanceActivity" />
+
     </application>
 
 </manifest>
